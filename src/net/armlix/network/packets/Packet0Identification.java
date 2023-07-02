@@ -30,6 +30,7 @@ public class Packet0Identification extends Packet {
         Core.logger.info(String.valueOf(this.version));
         Core.logger.info(this.username);
         Core.logger.info(this.key);
+        Core.logger.info(in.readByte());
     }
 
     @Override
